@@ -2,10 +2,12 @@ import logo from './logo.svg';
 import './App.css';
 import Form from './Form';
 import Form1 from './Form1';
+import LifecycleA from './components/LifecycleA';
 function App() {
   return (
     <div className="App">
-      <Form1/>
+      <LifecycleA/>
+      {/* <Form1/> */}
 {/* <Form/> */}
 
 
