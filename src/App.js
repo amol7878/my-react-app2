@@ -3,10 +3,12 @@ import './App.css';
 import Form from './Form';
 import Form1 from './Form1';
 import LifecycleA from './components/LifecycleA';
+import LifeA from './components/LifeA';
 function App() {
   return (
     <div className="App">
-      <LifecycleA/>
+      <LifeA></LifeA>
+      {/* <LifecycleA/> */}
       {/* <Form1/> */}
 {/* <Form/> */}
 
