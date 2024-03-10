@@ -4,13 +4,19 @@ import Form from './Form';
 import Form1 from './Form1';
 import LifecycleA from './components/LifecycleA';
 import LifeA from './components/LifeA';
+import LifeCycleA1 from './components/LifeCycleA1';
+import NameList from './components/NameList';
 function App() {
   return (
     <div className="App">
-      <LifeA></LifeA>
+
+
+      <NameList />
+      {/* <LifeCycleA1></LifeCycleA1> */}
+      {/* <LifeA/> */}
       {/* <LifecycleA/> */}
       {/* <Form1/> */}
-{/* <Form/> */}
+      {/* <Form/> */}
 
 
       {/* <header className="App-header">
