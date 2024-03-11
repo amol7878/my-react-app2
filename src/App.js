@@ -6,12 +6,15 @@ import LifecycleA from './components/LifecycleA';
 import LifeA from './components/LifeA';
 import LifeCycleA1 from './components/LifeCycleA1';
 import NameList from './components/NameList';
+import Table from './components/Table';
+import Fragment from './components/Fragment';
+
 function App() {
   return (
     <div className="App">
-
-
-      <NameList />
+<Fragment/>
+{/* <Table/> */}
+      {/* <NameList /> */}
       {/* <LifeCycleA1></LifeCycleA1> */}
       {/* <LifeA/> */}
       {/* <LifecycleA/> */}
