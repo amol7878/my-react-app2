@@ -8,11 +8,13 @@ import LifeCycleA1 from './components/LifeCycleA1';
 import NameList from './components/NameList';
 import Table from './components/Table';
 import Fragment from './components/Fragment';
+import ParentC from './components/ParentC';
 
 function App() {
   return (
     <div className="App">
-<Fragment/>
+      <ParentC/>
+{/* <Fragment/> */}
 {/* <Table/> */}
       {/* <NameList /> */}
       {/* <LifeCycleA1></LifeCycleA1> */}
