@@ -9,11 +9,19 @@ import NameList from './components/NameList';
 import Table from './components/Table';
 import Fragment from './components/Fragment';
 import ParentC from './components/ParentC';
+import FragmentR from './components/FragmentR';
+import TableR from './components/TableR';
+import RefDemo from './components/RefDemo';
+import FRInput from './components/FRInput';
 
 function App() {
   return (
     <div className="App">
-      <ParentC/>
+<FRInput/>
+{/* <RefDemo/> */}
+      {/* <ParentC/> */}
+      {/* <TableR/> */}
+      {/* <FragmentR /> */}
 {/* <Fragment/> */}
 {/* <Table/> */}
       {/* <NameList /> */}
